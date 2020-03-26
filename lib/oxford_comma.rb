@@ -3,7 +3,7 @@ if array.count = 1
   return array
 elsif array.count = 2
   return array.join(" and ")
-else arry[- 1] = "and #{array[-1]}"
+else array[- 1] = "and #{array[-1]}"
   return array.join(",")
 end
 end
